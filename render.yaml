@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: truyen-jsp-servlet
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
